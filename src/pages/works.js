@@ -13,12 +13,9 @@ const WorkIndex = ({ data }) => {
       <Layout> 
         <SEO title="Showcases" />
         <Intro>
+            <h2 style={{textAlign:'center'}}>Some of my most recent and interesting projects, click any of them for more details!</h2>
+            <br></br>
           <ContainerLayout>
-
-            <SubTitle className="text-dark">
-              Selected Work
-            </SubTitle>
-
             <ContainerLayout className="wrapper">
               {works.map(({ node }) => {
               const title = node.frontmatter.title || node.fields.slug
@@ -36,7 +33,7 @@ const WorkIndex = ({ data }) => {
                         <Category>{node.frontmatter.category}</Category>
                         <Title>
                           <Link className="text-primary lined-link" style={{ boxShadow: `none` }} to={node.fields.slug}>
-                            {title}
+                            {title} 
                           </Link>
                         </Title>
                       </header>

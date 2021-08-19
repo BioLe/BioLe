@@ -23,7 +23,7 @@ const RepositoryPage = ({data}) => {
             <h2>{name}</h2>
           </RepoInfo>
           <RepoGrid>
-            {repositories.nodes.map((repo, index) => <Repository key={index} repo={repo} />).reverse()}
+            {repositories.nodes.map((repo, index) => <Repository key={index} repo={repo} />)}
           </RepoGrid>
         </SectionIntro>
       </ContainerLayout>

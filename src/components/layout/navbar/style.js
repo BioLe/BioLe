@@ -4,7 +4,7 @@ import variables from '../../../data/variables';
 export const NavbarLogo = styled.div`
   a {
     color: ${variables.black};
-    font-size: 2.3rem;
+    font-size: 2.5rem;
     font-family: "GT-Walsheim-Pro-Bold";
   }
   @media(max-width: ${variables.breakpointPhone}) {

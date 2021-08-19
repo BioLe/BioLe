@@ -1,9 +1,9 @@
 module.exports = {
-  SiteTitle: 'Abdelali',
+  SiteTitle: 'Leonardo Melo',
   Sitelogo: '#',
-  SiteLogoText: 'Abdelali',
-  SiteAuthor: 'Abdelali Dahir',
-  SiteDescription: 'Front End Developer',
+  SiteLogoText: 'Leonardo',
+  SiteAuthor: 'Leonardo Melo',
+  SiteDescription: 'Software Engineer',
   defaultDescription: 'Software engineer!', 
   githubApiQuery: `query ($number_of_repos: Int!) {
     viewer {
@@ -42,19 +42,18 @@ module.exports = {
     number_of_repos: 12,
   }, 
   SiteSocialLinks: {
-    twitter: 'https://twitter.com/AbdaliDahir',
-    github: 'https://github.com/AbdaliDahir',
-    linkedin: 'https://www.linkedin.com/in/abdelali-dahir-0b5344111/',
+    github: 'https://github.com/biole',
+    linkedin: 'https://www.linkedin.com/in/leonardmelo/',
   },
   SiteAddress: {
-    city: 'Casablanca',
-    region: 'CurvaSud',
-    country: 'Morocco',
+    city: 'Lisboa',
+    region: 'Lisbon',
+    country: 'Portugal',
     zipCode: 'ZipCode',
   },
   SiteContact: {
-    email: 'abdali.dahir@gmail.com',
+    email: 'leonardo.melo@outlook.pt',
     phone: 'phone number',
   },
-  SiteCopyright: '2020',
+  SiteCopyright: '2021',
 };

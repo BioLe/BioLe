@@ -17,9 +17,9 @@ export const RepoInfo = styled.div`
 export const Avatar = styled.div`
   width: 100px;
   height: 100px;
-  border-radius: .5rem;
+  border-radius: 5rem;
   border: 10px solid #fff;
-  box-shadow: 0 0 20px 10px rgb(27 26 26 / 10%);
+  box-shadow: 0 0 10px 10px rgb(27 26 26 / 10%);
   margin-right: 1rem;
   background-color: #F9F9F9;
   background-size: cover;

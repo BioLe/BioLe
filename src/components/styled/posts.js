@@ -30,10 +30,15 @@ export const SmallText = styled.small`
     }
 `
 export const ArticleBody = styled.div `
-  margin-top: 5rem;
-  p {
+  margin-top: 3rem;
+  h1,h2 {
+      text-align: center;
+  }
+  text-align: left;
+  p, li {
     font-size: 1.5rem;
-    font-family: "GT-Walsheim-Pro-Medium";
+    font-family: "GT-Walsheim-Pro";
+    text-align: left;
   }
 `
 
