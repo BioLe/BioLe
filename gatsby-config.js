@@ -1,8 +1,10 @@
 const data = require('./src/data/data');
 require('dotenv').config({
-  path: `.env.${process.env.NODE_ENV}`,
+//   path: `.env.${process.env.NODE_ENV}`,
+    path: '.env.development'
 });
 module.exports = {
+  pathPrefix: "/LeonardoMelo",
   siteMetadata: {
     title: data.SiteTitle,
     description: data.SiteDescription,
