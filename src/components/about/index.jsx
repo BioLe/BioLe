@@ -7,7 +7,7 @@ import { GitHub, Linkedin, Mail } from 'react-feather'
 const About = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "pic.png" }) {
+      placeholderImage: file(relativePath: { eq: "profile2.png" }) {
         childImageSharp {
           fluid(maxWidth: 550) {
             ...GatsbyImageSharpFluid
