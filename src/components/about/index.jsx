@@ -7,7 +7,7 @@ import { GitHub, Linkedin, Mail } from 'react-feather'
 const About = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "profile2.png" }) {
+      placeholderImage: file(relativePath: { eq: "profile.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 550) {
             ...GatsbyImageSharpFluid
@@ -29,7 +29,7 @@ const About = () => {
             </div> 
             <div>
                 <Title> Hello, I’m Leonardo </Title>
-                <Text> I'm a software engineer fFrom <b className="text-primary lined-link">Portugal</b> living in Lisbon, with a bachelor's and master's 
+                <Text> I'm a software engineer from <b className="text-primary lined-link">Portugal</b> living in Lisbon, with a bachelor's and master's 
                     degree in computer science at <a className="text-secondary lined-link" href="https://isel.pt/en/">ISEL</a>.
                 </Text>
                 <Text> I have a passion for <b className="text-primary lined-link">Data Engineering</b>, with a special interest in dashboards and geographical data.</Text>
