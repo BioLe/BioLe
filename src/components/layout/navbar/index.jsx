@@ -23,7 +23,7 @@ const Navbar = ({ siteTitle }) => (
               {/* <li><Link to="/education" className="lined-link" activeClassName="active"> <BookOpen /> <span> Education </span> </Link></li>   */}
               <li><Link to="/works" className="lined-link" activeClassName="active"> <Briefcase /> <h3> Projects </h3> </Link></li>  
               <li><Link to="/repositories" className="lined-link" activeClassName="active"> <GitHub/> <h3> Github </h3> </Link></li>
-              <li><Link className="lined-link" activeClassName="active" href="https://biole.github.io/CV_Leonardo_Melo.pdf"> <Award /> <h3> Resume </h3> </Link></li>
+              <li><Link className="lined-link" activeClassName="active" href="https://leonardo-melo.github.io/CV_Leonardo_Melo.pdf"> <Award /> <h3> Resume </h3> </Link></li>
               {/* <li><Link className="lined-link" activeClassName="active"  href={`mailto:${data.SiteContact.email}`} target="_blank"> <Award /> <span> Lets talk </span> </Link></li> */}
             </NavbarList>
           </div>
