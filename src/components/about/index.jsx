@@ -24,15 +24,15 @@ const About = () => {
             <div>
                 <Avatar fluid={data.placeholderImage.childImageSharp.fluid} alt="user photo" />
                 <SubTitle>Software Engineer</SubTitle>
-                <a href="https://github.com/BioLe" style={{marginLeft:'40%'}}><GitHub /> </a>
+                <a href="https://github.com/leonardo-melo" style={{marginLeft:'40%'}}><GitHub /> </a>
                 <a href="https://www.linkedin.com/in/leonardmelo/" style={{marginLeft:'10%'}}><Linkedin /> </a>
             </div> 
             <div>
                 <Title> Hello, I’m Leonardo </Title>
-                <Text> I'm a software engineer from <b className="text-primary lined-link">Portugal</b> living in Lisbon, close to completing 
-                    my masters in computer science at <a className="text-secondary lined-link" href="https://isel.pt/en/">ISEL</a>.
+                <Text> I'm a software engineer fFrom <b className="text-primary lined-link">Portugal</b> living in Lisbon, with a bachelor's and master's 
+                    degree in computer science at <a className="text-secondary lined-link" href="https://isel.pt/en/">ISEL</a>.
                 </Text>
-                <Text> I have a passion for <b className="text-primary lined-link">Backend Development</b>, with a special interest in dashboards and geographical data.</Text>
+                <Text> I have a passion for <b className="text-primary lined-link">Data Engineering</b>, with a special interest in dashboards and geographical data.</Text>
                 <Text> I strive to always be learning and keeping up with the latest technologies, even if it seems an impossible task sometimes.
                 </Text>
                 <Text>Check what I have been doing in the <a href="/works">Projects</a> section!</Text>
